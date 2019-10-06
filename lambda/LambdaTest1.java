@@ -41,6 +41,8 @@ public class LambdaTest1 {
      *  x -> System.out.println(x)
      *  3. 在参数中写明参数类型（所有参数都必须加类型，要么都加，要么都不加）
      *  (Integer x, Integer y) -> {}
+     *  4. 方法体只存在返回值
+     *  () -> ...     若返回语句为return Integer.compare(x, y); 则...为Integer.compare(x, y)
      *
      */
 
